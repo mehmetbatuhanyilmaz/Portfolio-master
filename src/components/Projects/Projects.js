@@ -70,10 +70,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pix}
-              isFigma={false}
+              isDisabled={true}
               title="API-Social Media"
               description="It is an individual work that I have done with data extraction and visualization using API."
-              link="https://github.com/mehmetbatuhanyilmaz/Decathlon-PIXtagram-React-App"
+              link=""
             />
           </Col>
 
