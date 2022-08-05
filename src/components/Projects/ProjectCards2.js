@@ -13,7 +13,7 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         
-        <Button variant="primary" href={props.link} target="_blank" className="mt-2" disabled={true} >
+        <Button variant="secondary" href={props.link} target="_blank" className="mt-2" disabled={true} >
           
           {props.isDisabled ? "Private Code" : "Private Design"}
           

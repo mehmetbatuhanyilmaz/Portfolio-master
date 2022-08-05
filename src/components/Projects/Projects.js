@@ -50,8 +50,10 @@ function Projects() {
               imgPath={mobil}
               isFigma={true}
               title="Mobil App"
-              description="In this App, which I designed with Figma, I made the front-end designs of an information, sharing and friendship application related to plants. My main goal after this design is to develop myself in React Native and move this design to the Mobile Environment."
-              link=""
+              description="In this App, which I designed with Figma,
+               I made the front-end designs of an information, sharing and friendship application related to plants. 
+               The next step is to develop React Native and move this design to the Mobile Environment."
+              link="https://www.figma.com/file/pawyhKbiaCJQiGM7z6WZXd/Mobile-UI"
             />
           </Col>
 
@@ -60,8 +62,8 @@ function Projects() {
               imgPath={patika}
               isFigma={false}
               title="E-Commerce"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              description="Together with my teammate Ogün Demirkıran, we designed and coded the Kraft.co E-Commerce page, which we developed using React.js technology."
+              link="https://github.com/mehmetbatuhanyilmaz/patika-frontend-projects"
             />
           </Col>
 
@@ -70,19 +72,18 @@ function Projects() {
               imgPath={pix}
               isFigma={false}
               title="API-Social Media"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              description="It is an individual work that I have done with data extraction and visualization using API."
+              link="https://github.com/mehmetbatuhanyilmaz/Decathlon-PIXtagram-React-App"
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards2
               imgPath={css}
-              isFigma={false}
+              isDisabled={true}
               title="CSS Animations"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="I got an animated interface work using CSS Animations."
+              link="https://github.com/mehmetbatuhanyilmaz/JUSTDesign"
             />
           </Col>
         </Row>
