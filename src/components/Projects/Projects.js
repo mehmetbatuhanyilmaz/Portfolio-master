@@ -23,12 +23,12 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCards2
               imgPath={bab}
-              isFigma={true}
+              isDisabled={true}
               title="IoT Interface"
               description="Preliminary designs of the web application developed for the user side of the products we developed with IoT. UI /UX designs and Front-end development with Vue3.js. (Figma-Zeplin-Photohop-Vue.js-React.js)"
-              link="https://www.figma.com/file/XOsh8ifeeAwrQNcpsHTt11/IOT-Firm-Works?node-id=0%3A1"
+              link=""
             />
           </Col>
 
@@ -70,17 +70,17 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pix}
-              isDisabled={true}
+              isFigma={false}
               title="API-Social Media"
               description="It is an individual work that I have done with data extraction and visualization using API."
-              link=""
+              link="https://github.com/mehmetbatuhanyilmaz/Decathlon-PIXtagram-React-App"
             />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCards2
+            <ProjectCard
               imgPath={css}
-              isDisabled={true}
+              isDisabled={false}
               title="CSS Animations"
               description="I got an animated interface work using CSS Animations."
               link="https://github.com/mehmetbatuhanyilmaz/JUSTDesign"

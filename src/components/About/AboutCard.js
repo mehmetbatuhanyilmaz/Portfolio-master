@@ -13,7 +13,7 @@ function AboutCard() {
             from <span className="purple"> Istanbul, Turkey.</span>
             <br />I am an <span className="purple"> Architech</span> with a degree in Architecture, I know my design side is strong and because of my special interest in software, 
 I started developing projects in the field of <span className="purple">Front-End Developer</span>. Apart from that,
- I received training in the field of <span className="purple">UI/UX</span> Design and I make designs and developments in this field. 
+ I received trainingS in the field of <span className="purple">UI/UX</span> Design and <span className="purple">Manual Test</span>, I make designs and developments in this field. 
  I can speak B2+ level <span className="purple">English </span> and A2 level <span className="purple">German</span>, after improving myself in these languages, 
  it will be to increase my <span className="purple">French</span> from A1 to B1 level.
             <br />
